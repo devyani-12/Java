@@ -5,7 +5,7 @@ public class MaxSubarrays {
     public static int  MaxSum(int arr[],int n){
 
         int currsum=0;
-        int maxsum=0;
+        int maxsum=Integer.MIN_VALUE;
         
 
         for(int i=0;i<n;i++){
