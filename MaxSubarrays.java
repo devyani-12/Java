@@ -5,7 +5,8 @@ public class MaxSubarrays {
     public static int  MaxSum(int arr[],int n){
 
         int currsum=0;
-        int maxsum=Integer.MIN_VALUE;
+        int maxsum=Integer.MIN_VALUE; //this 
+     //will work in case if all elements are negative andalso if some are positive n some are negative
         
 
         for(int i=0;i<n;i++){
